@@ -7,8 +7,98 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    display: flex;
+}
+
+header img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 10px 0 0;
 }
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+#description {
+    display: block;
+    background-color: rgb(236, 236, 236);
+    padding: 6% 8% 2% 8%;
+}
+
+#description h2, #relationship h2 {
+    font-size: 20px;
+}
+
+#description img {
+    float: left;
+    zoom: 50%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.description-p1, .relationship-p1  {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.description-p2 {
+    font-size: 13px;
+    font-weight: normal;
+    clear: both;
+}
+
+#relationship {
+    display: block;
+    background-color:white;
+    padding: 2% 8%;
+}
+
+#relationship img {
+    float: right;
+    zoom: 50%;
+    margin-right: 25px;
+}
+
+.relationship-p2 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: rgb(163, 160, 160);
+    height: 70px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 70px;
+}
+
